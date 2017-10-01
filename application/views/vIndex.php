@@ -7,10 +7,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="icon" href="">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js\jquery.min.js"></script>
+        <script type="text/javascript" src="js\bootstrap.min.js"></script>
+        <link href="css\font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="css\bootstrap.css"" rel="stylesheet" type="text/css">
+        <link href="css\style.css"" rel="stylesheet" type="text/css">
+        <title>Eventos Little Red</title>
+        <link rel="icon" href="">
     </head><body>
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -70,110 +73,114 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- Fin Carousel ---------------------------------------------------------------------->
 
         <!-- Reviews ---------------------------------------------------------------------->
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr>
+        <div class="Todo">
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="text-center">Opiniones de nuestros clientes</h1>
+            <div class="sectionT">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="text-center">Opiniones de nuestros clientes</h1>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="images\reviews\iDubbbz.jpg" class="center-block img-circle img-responsive">
-                        <h2 class="text-center">Idubbbz</h2>
-                        <p class="lead text-center">"Hey ... that's pretty good"</p>
+            <div class="Reviews">
+                <div class="section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\iDubbbz.jpg" class="center-block img-circle img-responsive">
+                                <h2 class="text-center">Idubbbz</h2>
+                                <p class="lead text-center">"Hey ... that's pretty good"</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\PinkGuy.jpg" class="center-block img-circle img-responsive">
+                                <h2 class="text-center">Pink Guy</h2>
+                                <p class="lead text-center">"Hey b0ss, kan i hab a pussy plis?
+                                    <br>Hey b0ss, i hab a cancer."</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\Chinchin.jpeg" class="center-block img-circle img-responsive">
+                                <h2 class="text-center">Chin-Chin</h2>
+                                <p class="lead text-center">"Ore Wa Ochinchin Ga Daisuki Nandayo"</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\LemonGuy.jpg" class="center-block img-circle img-responsive">
+                                <h2 class="text-center">Lemon Guy</h2>
+                                <p class="lead text-center">"I'M A LEMON, CAN I GIVE U LEMON? PLIS, I GROW THEM MYSELF"</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <img src="images\reviews\PinkGuy.jpg" class="center-block img-circle img-responsive">
-                        <h2 class="text-center">Pink Guy</h2>
-                        <p class="lead text-center">"Hey b0ss, kan i hab a pussy plis?
-                            <br>Hey b0ss, i hab a cancer."</p>
+                </div>
+                <div class="section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\SalamanderGuy.jpg" class="center-block img-circle img-responsive">
+                                <h2 class="text-center">Salamander Guy</h2>
+                                <p class="lead text-center">"SMELL MY FINGER, FRANK.
+                                    <br>NYEEEEEEEE"</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\SafariMan.jpg" class="center-block img-circle img-responsive">
+                                <h2 class="text-center">Safari Man</h2>
+                                <p class="lead text-center">"Ora manko ga daisuki nanda hahahaha"</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\Dade.jpeg" class="center-block img-circle img-responsive">
+                                <h2 class="text-center">Dade</h2>
+                                <p class="lead text-center">"FRUIT SNAAAAAAAACK"</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\Chad.png" class="center-block img-circle img-responsive">
+                                <h2 class="text-center">Anything4views</h2>
+                                <p class="lead text-center">"I got a Pewdiepie's Brofist tatoo in &nbsp;my ass"</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <img src="images\reviews\Chinchin.jpeg" class="center-block img-circle img-responsive">
-                        <h2 class="text-center">Chin-Chin</h2>
-                        <p class="lead text-center">"Ore Wa Ochinchin Ga Daisuki Nandayo"</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images\reviews\LemonGuy.jpg" class="center-block img-circle img-responsive">
-                        <h2 class="text-center">Lemon Guy</h2>
-                        <p class="lead text-center">"I'M A LEMON, CAN I GIVE U LEMON? PLIS, I GROW THEM MYSELF"</p>
+                </div>
+                <div class="section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\FilthyFrank.jpeg" class="center-block img-circle img-responsive">
+                                <h2 class="text-center">Filthy Frank</h2>
+                                <p class="lead text-center">"Ravioli Ravioli.
+                                    <br>What's in the pocketoli?"</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\FakeFrank.jpeg" class="center-block img-circle img-responsive">
+                                <h2 class="text-center">Fake Frank</h2>
+                                <p class="lead text-center">"I HATE VEGANS"</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\E.T..jpeg" class="center-block img-circle img-responsive" id="foto">
+                                <h2 class="text-center">E.T.</h2>
+                                <p class="lead text-center">“ Slurp slurp skeet skeet ”</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img id="imgR" src="images\reviews\Frank.jpeg" class="center-block img-circle img-responsive" id="foto">
+                                <h2 class="text-center">George Miller 'Joji'</h2>
+                                <p class="lead text-center">“I wanna kill myself”</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="images\reviews\SalamanderGuy.jpg" class="center-block img-circle img-responsive">
-                        <h2 class="text-center">Salamander Guy</h2>
-                        <p class="lead text-center">"SMELL MY FINGER, FRANK.
-                            <br>NYEEEEEEEE"</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images\reviews\SafariMan.jpg" class="center-block img-circle img-responsive">
-                        <h2 class="text-center">Safari Man</h2>
-                        <p class="lead text-center">"Ora manko ga daisuki nanda hahahaha"</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images\reviews\Dade.jpeg" class="center-block img-circle img-responsive">
-                        <h2 class="text-center">Dade</h2>
-                        <p class="lead text-center">"FRUIT SNAAAAAAAACK"</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images\reviews\Chad.png" class="center-block img-circle img-responsive">
-                        <h2 class="text-center">Anything4views</h2>
-                        <p class="lead text-center">"I got a Pewdiepie's Brofist tatoo in &nbsp;my ass"</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="images\reviews\FilthyFrank.jpeg" class="center-block img-circle img-responsive">
-                        <h2 class="text-center">Filthy Frank</h2>
-                        <p class="lead text-center">"Ravioli Ravioli.
-                            <br>What's in the pocketoli?"</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images\reviews\FakeFrank.jpeg" class="center-block img-circle img-responsive">
-                        <h2 class="text-center">Fake Frank</h2>
-                        <p class="lead text-center">"I HATE VEGANS"</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images\reviews\E.T..jpeg" class="center-block img-circle img-responsive" id="foto">
-                        <h2 class="text-center">E.T.</h2>
-                        <p class="lead text-center">“ Slurp slurp skeet skeet ”</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images\reviews\Frank.jpeg" class="center-block img-circle img-responsive" id="foto">
-                        <h2 class="text-center">George Miller 'Joji'</h2>
-                        <p class="lead text-center">“I wanna kill myself”</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
                     </div>
                 </div>
             </div>

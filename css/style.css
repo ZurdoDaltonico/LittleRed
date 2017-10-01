@@ -1,0 +1,44 @@
+#imgR{
+	border: 2px dashed black;
+}
+.col-md-3{
+	box-shadow: 0px 0px 5px #888888;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 280px;
+    height: 500px;
+    padding-top: 30px;
+}
+.col-md-3:hover, .col-md-3:hover > #imgR{
+	background-color: white;
+	border: 2px solid black;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+.col-md-3:hover{
+	border-radius: 50px;
+}
+
+.Reviews {
+	width: 95%;
+    margin: auto;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.sectionT{
+	width: 95%;
+	margin: auto;
+	background-color: #d9534f;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	box-shadow: 0px 0px 10px #333;
+
+}
+
+.sectionT h1{
+	margin: 20px 0px;
+}
+
+body{
+	background-color: whitesmoke;
+}
