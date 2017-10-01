@@ -10,8 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <script type="text/javascript" src="js\jquery.min.js"></script>
         <script type="text/javascript" src="js\bootstrap.min.js"></script>
         <link href="css\font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="css\bootstrap.css"" rel="stylesheet" type="text/css">
-        <link href="css\style.css"" rel="stylesheet" type="text/css">
+        <link href="css\bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css\style.css" rel="stylesheet" type="text/css">
         <title>Eventos Little Red</title>
         <link rel="icon" href="">
     </head><body>

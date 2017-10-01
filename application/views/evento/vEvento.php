@@ -1,11 +1,15 @@
-<!DOCTYPE html>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+http://localhost/index.php/js/jquery.min.js
+?>
 <html><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://localhost/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://localhost/js/bootstrap.min.js"></script>
+    <link href="http://localhost/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://localhost/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="http://localhost/css/styleE.css" rel="stylesheet" type="text/css">
   </head><body>
     <div class="navbar navbar-default navbar-static-top">
       <div class="container">
@@ -32,12 +36,12 @@
         </div>
       </div>
     </div>
-    <div class="section">
+    <div class="sectionDatos">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h1>Ingrese sus datos</h1>
-            <form action="http://localhost:8080/pagina/index.php/cevento/guardar" method="POST" class="form-horizontal" role="form">
+            <form action="http://localhost:80/pagina/index.php/cevento/guardar" method="POST" class="form-horizontal" role="form">
               <div class="form-group">
                 <div class="col-sm-2">
                   <label for="inputEmail3" class="control-label">Nombre</label>
@@ -83,11 +87,13 @@
         </div>
       </div>
     </div>
-    <div class="section">
+
+
+    <div class="sectionEvento">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>Selecciones los detalles del evento</h1>
+            <h1>Seleccione los detalles del evento</h1>
             <form class="form-horizontal" role="form">
               <div class="form-group">
                 <div class="col-sm-2">
@@ -152,7 +158,7 @@
                 </tr>
               </tbody>
             </table>
-            <form class="form-horizontal" role="form"><div class="form-group has-feedback"><div class="col-sm-2"><label for="inputEmail3" class="control-label">Precio Final<br></label></div><div class="col-sm-10"><input type="email" class="form-control" id="inputEmail3" placeholder="Email" disabled="disabled"></div></div></form><a class="btn btn-block btn-danger btn-lg">Reservar Evento</a>
+            <form class="form-horizontal" role="form"><div class="form-group has-feedback"><div class="col-sm-2"><label for="inputEmail3" class="control-label">Precio Final<br></label></div><div class="col-sm-10"><input type="email" class="form-control" id="inputEmail3" placeholder="Precio Final" disabled="disabled"></div></div></form><a class="btn btn-block btn-danger btn-lg">Reservar Evento</a>
           </div>
         </div>
       </div>
@@ -163,7 +169,7 @@
             <h1>Little Red</h1>
             <p>Primera empresa multi nacional de Argentina, futura dominadora del universo,
               bendecida por los dioses del olimpo, protegida por nuestros hermanos y
-              camaradas yihadistas y stalinistas, con maestria 7 con Bardo y Zac.&nbsp;
+              camaradas yihadistas y stalinistas, con maestria 7 con Bardo.&nbsp;
               <br>
               <br>"¿Ves ese rayo de esperanza? Soy yo"</p>
           </div>
